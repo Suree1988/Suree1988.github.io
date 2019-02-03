@@ -58,7 +58,7 @@ body, html{
 
 /* desert scheme ported from vim to google prettify */
 pre.prettyprint { display: block; background-color: #333 }
-pre .nocode { background-color: none; color: #000 }
+pre .nocode {color: #000 }
 pre .str { color: #ffa0a0 } /* string  - pink */
 pre .kwd { color: #f0e68c; font-weight: bold }
 pre .com { color: #87ceeb } /* comment - skyblue */
@@ -78,7 +78,7 @@ li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
 li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 @media print {
-  pre.prettyprint { background-color: none }
+  
   pre .str, code .str { color: #060 }
   pre .kwd, code .kwd { color: #006; font-weight: bold }
   pre .com, code .com { color: #600; font-style: italic }
@@ -144,6 +144,10 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 .text-7{
     font-size: 1rem;
     letter-spacing: .5px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+
 }
 
 .text-links {
@@ -165,7 +169,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 }
 
 .team .col-lg-6{
-    margin-bottom: 1.5;
+    margin-bottom: 1.5rem;
     text-align: center;
    
 }
@@ -188,7 +192,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
   footer{
       background: #65b9da;
       border-radius: 5px;
-      border-top: 1px solid #65b9da;;
+      
       padding-bottom: 3rem;
   }
 
@@ -219,4 +223,5 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
       display: block;
     }
   }
+  
   
