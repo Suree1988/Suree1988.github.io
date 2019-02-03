@@ -151,7 +151,6 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 }
 
 .text-links {
-   margin-left: 3rem;
    margin-top: 3rem;
     
 }
@@ -221,6 +220,12 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
     .social-media, iframe {
       width: 100%;
       display: block;
+    }
+    .overview{
+        display: none;
+    }
+    .p3{
+        font-size: 4rem;
     }
   }
   
