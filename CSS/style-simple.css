@@ -25,6 +25,17 @@ body, html{
     padding-bottom: 1rem;
 }
 
+table .color1{
+    background: #aba2af;
+}
+td{
+    background: #f6e2dc;
+}
+
+.table-bordered{
+    border: 1px solid black;
+}
+
 /* desert scheme ported from vim to google prettify */
 pre.prettyprint { display: block; background-color: #333 }
 pre .nocode {color: #000 }
